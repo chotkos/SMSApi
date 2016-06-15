@@ -7,8 +7,8 @@ dodana klasa SMSApiProvidera do krótszego wysyłania smsów
 
 Przykład wysyłki:
 ```c#
-var provider = new SMSApiProvider("chotkos@gmail.com", "7194fe56e7f53fd06a23ebf0f85078ac");
-            provider.sendSMS("514899374", "Test", "Info");
+var provider = new SMSApiProvider("chotkos@gmail.com", "haslowmd5");
+            provider.sendSMS("jakisnumertel", "Testowa wiadomosc", "Info");
             Console.ReadLine();
 ```
 
